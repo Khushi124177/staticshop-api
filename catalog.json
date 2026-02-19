@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "email": "24f2004980@ds.study.iitm.ac.in",
+    "version": "4fbcce75"
+  },
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "category": "electronics", "price": 599.99, "stock": 120, "rating": 4.3 },
+    { "id": 2, "name": "Bluetooth Headphones", "category": "electronics", "price": 1499.5, "stock": 75, "rating": 4.6 },
+    { "id": 3, "name": "Smart Watch", "category": "electronics", "price": 2499.0, "stock": 50, "rating": 4.4 },
+    { "id": 4, "name": "USB-C Cable", "category": "electronics", "price": 199.0, "stock": 300, "rating": 4.2 },
+
+    { "id": 5, "name": "Men's T-Shirt", "category": "fashion", "price": 499.0, "stock": 200, "rating": 4.1 },
+    { "id": 6, "name": "Women's Jeans", "category": "fashion", "price": 1299.0, "stock": 90, "rating": 4.5 },
+    { "id": 7, "name": "Sneakers", "category": "fashion", "price": 1999.0, "stock": 60, "rating": 4.4 },
+    { "id": 8, "name": "Leather Wallet", "category": "fashion", "price": 799.0, "stock": 110, "rating": 4.2 },
+
+    { "id": 9, "name": "Cooking Oil 1L", "category": "groceries", "price": 159.0, "stock": 400, "rating": 4.0 },
+    { "id": 10, "name": "Basmati Rice 5kg", "category": "groceries", "price": 549.0, "stock": 150, "rating": 4.7 },
+    { "id": 11, "name": "Green Tea Pack", "category": "groceries", "price": 299.0, "stock": 180, "rating": 4.3 },
+    { "id": 12, "name": "Organic Honey", "category": "groceries", "price": 399.0, "stock": 95, "rating": 4.6 },
+
+    { "id": 13, "name": "Office Chair", "category": "furniture", "price": 4999.0, "stock": 25, "rating": 4.4 },
+    { "id": 14, "name": "Wooden Study Table", "category": "furniture", "price": 7999.0, "stock": 15, "rating": 4.5 },
+    { "id": 15, "name": "LED Desk Lamp", "category": "furniture", "price": 899.0, "stock": 40, "rating": 4.2 },
+
+    { "id": 16, "name": "Data Science Handbook", "category": "books", "price": 1999.41, "stock": 31, "rating": 4.8 },
+    { "id": 17, "name": "Machine Learning Basics", "category": "books", "price": 1849.17, "stock": 28, "rating": 4.7 }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 4,
+      "inventoryValue": 0
+    },
+    "fashion": {
+      "count": 4,
+      "inventoryValue": 0
+    },
+    "groceries": {
+      "count": 4,
+      "inventoryValue": 0
+    },
+    "furniture": {
+      "count": 3,
+      "inventoryValue": 0
+    },
+    "books": {
+      "count": 2,
+      "inventoryValue": 113266.92
+    }
+  }
+}
